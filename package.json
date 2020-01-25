@@ -1,0 +1,17 @@
+{
+  "name": "fillhours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.8.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
