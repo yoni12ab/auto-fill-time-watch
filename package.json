@@ -8,6 +8,10 @@
   "bin": {
     "auto-fill-time-watch": "run.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoni12ab/auto-fill-time-watch.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

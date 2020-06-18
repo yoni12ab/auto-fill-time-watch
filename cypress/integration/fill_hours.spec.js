@@ -5,6 +5,7 @@ describe('first test', () => {
     const COMPANY_NUMBER = Cypress.env('COMPANY_NUMBER') || process.argv[0];
     const EMPLOYEE_NUMBER = Cypress.env('EMPLOYEE_NUMBER') || process.argv[1];
     const PASSWORD = Cypress.env('PASSWORD') || process.argv[2];
+    console.log('COMPANY_NUMBER ' + COMPANY_NUMBER);
     if (!COMPANY_NUMBER) {
       throw new Error(
         'please set password and employee number and company number in cypress json'
