@@ -6,7 +6,9 @@
     "start": "npx cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./run.js",
+  "bin": {
+    "auto-fill-time-watch": "./run.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
