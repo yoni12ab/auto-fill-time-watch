@@ -15,7 +15,7 @@ try {
 }
 
 execSync(
-  "node_modules/.bin/cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
+  "./node_modules/.bin/cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
   { cwd: __dirname }
 );
 console.log('run ended');
