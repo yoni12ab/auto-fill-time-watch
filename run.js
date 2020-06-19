@@ -6,6 +6,14 @@
 // console.log('run ended');
 const execSync = require('child_process').execSync;
 console.log('run started' + __dirname);
+console.log('Starting directory: ' + process.cwd());
+try {
+  process.chdir(__dirname);
+  console.log('New directory: ' + process.cwd());
+} catch (err) {
+  console.log('chdir: ' + err);
+}
+
 execSync(
   "cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
   { cwd: __dirname }
