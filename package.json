@@ -2,8 +2,8 @@
   "name": "auto-fill-time-watch",
   "version": "1.0.0",
   "scripts": {
-    "start1": "npx cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
-    "start": "cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
+    "start": "npx cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
+    "start1": "cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
