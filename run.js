@@ -6,5 +6,5 @@
 // console.log('run ended');
 const execSync = require('child_process').execSync;
 console.log('run started' + __dirname);
-execSync('npm start');
+execSync('npm start', { cwd: __dirname });
 console.log('run ended');
