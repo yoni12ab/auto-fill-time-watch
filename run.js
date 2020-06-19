@@ -15,7 +15,7 @@ try {
 }
 
 execSync(
-  "cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
+  "npx cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
   { cwd: __dirname }
 );
 console.log('run ended');
