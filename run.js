@@ -6,5 +6,8 @@
 // console.log('run ended');
 const execSync = require('child_process').execSync;
 console.log('run started' + __dirname);
-execSync('npm start', { cwd: __dirname });
+execSync(
+  "cypress run --headed --spec 'cypress/integration/fill_hours.spec.js'",
+  { cwd: __dirname }
+);
 console.log('run ended');
